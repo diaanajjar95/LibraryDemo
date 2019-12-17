@@ -9,7 +9,7 @@ dependencies {
     ...
     implementation 'com.github.diaanajjar95:LibraryDemo:1.0'
 }
-
+ 
 Usage 
 
 CustomToastMessage.showToast(this,"wa7",4)
