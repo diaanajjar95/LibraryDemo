@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        CustomToastMessage.showToast(this, "Hi from my application", 3)
+        CustomToastMessage(this).showToast(this, "Hi from my application", 3,layoutInflater, R.drawable.ic_error_black_24dp)
 
     }
 }
